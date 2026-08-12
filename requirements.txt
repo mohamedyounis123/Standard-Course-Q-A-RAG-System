@@ -1,0 +1,19 @@
+# --- Core (used by both the notebook and app.py) ---
+numpy
+pandas
+torch
+transformers
+sentence-transformers
+sentencepiece
+chromadb
+
+# --- Notebook only: document ingestion (not needed by app.py) ---
+pypdf
+python-docx
+matplotlib
+
+# --- App only: UI ---
+gradio
+
+# --- Optional: only needed if RAG_LLM_BACKEND="api" ---
+requests

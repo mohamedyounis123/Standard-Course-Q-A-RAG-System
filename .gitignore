@@ -1,0 +1,10 @@
+vector_db/
+rag_outputs/
+__pycache__/
+.venv/
+venv/
+.env
+.vscode/
+.DS_Store
+rag_outputs/
+vector_db/
